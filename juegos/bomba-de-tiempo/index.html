@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <title>Bomba de tiempo</title>
+</head>
+
+<body>
+
+<header id="nombre"></header>
+
+<section class="pantallas" id="pantalla1">
+ 
+<img id="titulo" src="multimedia/bomba-de-tiempo-text.png">
+
+<div id="centrar">
+
+    <h2>¡Bienvenido! Te desafiamos a ganar nuestro juego</h2>
+
+    <h3>
+        Tenes una bomba, 10 cables y 60 segundos para desactivarla.<br>
+        Cada cable erróneo que cortes, te restará 10 segundos de tiempo.<br>
+        Tenes que desactivar 3 bombas para ganar.<br>
+        ¿Estás listo?
+    </h3>
+
+    <input id="nombreju" type="text" placeholder="Ingresa tu nombre">
+
+    <div>
+        <button id="irapantalla2">Comenzar</button>
+    </div>
+
+    <audio id="audios" controls preload="none" src="./multimedia/pantalla1.mp3" type="audio/mpeg" >
+   
+      </audio>
+
+</div>
+
+</section>
+
+<section class="pantallas" id="pantalla2">
+    
+<img id="bombita" src="multimedia/bombac.png">
+<div id="cantbombas">0</div>
+
+<div>
+    <div id="contenedor-de-tiempo">
+        <h1 id="tiemporestante" >Tiempo Restante</h1>
+        <div id="cuentaregresiva">60</div>
+        <button id="activarbomba">Activar Bomba</button>
+       
+        </div>
+        <img src="multimedia/bombakawaii.png" id="bombadetiempo">
+</div>
+
+<div class="contenedorcables">
+
+    <div class="cables" id="cable0"></div>
+    <div class="cables" id="cable1"></div>
+    <div class="cables" id="cable2"></div>
+    <div class="cables" id="cable3"></div>
+    <div class="cables" id="cable4"></div>
+    <div class="cables" id="cable5"></div>
+    <div class="cables" id="cable6"></div>
+    <div class="cables" id="cable7"></div>
+    <div class="cables" id="cable8"></div>
+    <div class="cables" id="cable9"></div>
+
+</div>
+
+<div id="ups">
+    <p>
+         Cable incorrecto!<br>
+         Te quedan 10 segundos menos!<br>
+    </p>
+</div>
+
+</section>
+
+<section class="pantallas" id="pantalla3">
+
+    <img id="looser" src="multimedia/looser.png">
+
+    <button id="jugardenuevol">Jugar de nuevo</button>
+
+    <img id="rip" src="multimedia/rip.png"> 
+
+</section>
+
+
+
+<section class="pantallas" id="pantalla4">
+
+    <img id="winner" src="multimedia/winner-text.png">
+
+    <button id="jugardenuevo2">Jugar de nuevo</button>
+
+    <img id="copa" src="multimedia/copa.png">
+    
+</section>
+
+<script src="js/main.js" ></script>
+
+</body>
+</html>

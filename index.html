@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <title>Chill Zone</title>
+
+    
+
+</head>
+
+<body onload="mueveReloj()">
+
+<div class="modal-conteiner">
+    <div class="modal close">
+       
+        <img id="atencion" src="./images/atencion.png" alt="relax">
+        <div class="modal-textos">
+            <h2>Estas a punto de entrar en una zona de relax</h2>
+            <h3>Desconectate, dale play a la musica y disfrutá</h3>
+            <button id="aceptar" class="close">aceptar</button>
+        </div>
+    </div>
+
+</div>
+
+<header>
+    
+    <img id="titulo" src="./images/basetitulo.png" alt="header">
+    <form name="form_reloj">
+        <input id="reloj" type="text" name="reloj" size="10">
+    </form>
+    
+</header>
+    
+<nav id="navbarra">
+
+    <a class="btnnav" id="irpantallahome">Home</a>
+    <a class="btnnav" id="jue">Juegos</a>
+    <a class="btnnav" id="chtbt">Chatbot</a>
+    <a class="btnnav" id="wallpapper">Wallpappers</a>
+       
+</nav>
+
+<main>
+
+    <section id="home">
+
+        <div id="fidget">
+
+       <h1 id="ft"> Soy un fidget toy digital</h1>
+
+        <div id="contadorclicks">
+            0
+         </div>  
+
+        <div>
+            <img id="apretame" src="./images/apretame.png">
+        </div>
+
+        <audio id="audiofondo" src="./multimedia/musicafondo.mp3" controls preload="none" autoplay loop  type="audio/mpeg"></audio>
+
+        </div>
+        
+    </section>
+
+    <section id="juegos">
+
+        <h1 id="jt">Juegos</h1>
+
+         <div id="contenedorjuegos">
+
+        <div id="j1">
+            <img id="portada1" src="./juegos/oraculo/multimedia/portada1.jpg" alt="bruja">
+        </div>
+
+        <div id="j2">
+            <img id="portada2" src="./juegos/bomba-de-tiempo/multimedia/portada2.jpg" alt="bombadetiempo">
+        </div>
+
+        <div id="j3">
+            <img id="portada3" src="./juegos/piedra-papel-tijera/multimedia/portada3.jpg" alt="piedra-papel-tijera">
+        </div>
+
+        </div>
+        
+         <div  id="juego1">
+            <iframe id="juego11" src="juegos/oraculo/index.html"></iframe> 
+         </div>
+
+        <div id="juego2">
+            <iframe id="juego22" src="juegos/bomba-de-tiempo/index.html"></iframe>
+        </div>
+
+        <div id="juego3">
+            <iframe id="juego33" src="juegos/piedra-papel-tijera/index.html"></iframe> 
+        </div>     
+    
+    </section>
+
+    <section id="chatbot">
+
+        <div class="modal-conteiner1">
+            <div class="modal1 close1">
+               
+                <img id="atencion1" src="./images/atencion.png" alt="relax">
+                <div class="modal-textos1">
+                    <h2>Vas a entrar en una conversación con un ser del más allá</h2>
+                    <h3>Ingresa las preguntas en minuscula y solo con el ultimo signo de interrogación</h3>
+                </div>
+                <button id="botoncerrar1" class="close1">aceptar</button>
+            </div>
+        
+        </div>
+
+        <h1 id="titulo-chatbot">ChatBot</h1>
+
+        <input type="text" name="name" value="Queres hacerme una pregunta?" id="txtpregunta" size="100">
+
+        <div id="txtrespuesta" size="100"></div>
+        
+        
+        <button id="resultado">Preguntar</button>
+
+    </section>
+
+    <section id="pantalla-wal">
+
+        <div id="contenedor"></div>
+
+        <h1>Wall pappers Lofi</h1>
+              
+                <img src="./images/c8.jpg" alt="imagen1" id="foto">
+
+                <img src="./images/c6.jpg" alt="foto2" id="foto2">
+                 
+              </div>
+
+    </section>
+
+
+</main>
+<script src="./js/anime.min.js"></script>
+<script src="./js/codigo.js"></script>
+
+</body>
+</html>

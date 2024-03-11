@@ -1,0 +1,450 @@
+*{
+    margin: 0%;
+    color: #ead379;
+    font-size: x-large;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+
+.modal-conteiner{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    border-radius: 25px;
+    width: 55%;
+    height: 65%;
+    margin-top: 5%;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    text-align: center;
+    position: relative;
+}
+
+h2{
+    color: #915b86;
+}
+
+h3{
+    color: #915b86;
+}
+
+#atencion{
+    margin-left:2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#aceptar{
+    margin-top: 8%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ca8be8, #aa75c3);
+    box-shadow:  34px 34px 68px #9b6bb2,
+                 -34px -34px 68px #df99ff;
+    border: none;
+    cursor: pointer;
+}
+
+header{
+    background-color: #26a5c5;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#reloj{
+    margin-left: 90%;
+    background-color: #b490ca;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+#titulo{
+  width:40%;
+  margin-left: 29%;
+}
+
+nav{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 1%;
+    margin-top: 0.5%;
+    background: #26a5c5;
+    box-shadow:  14px 14px 8px #186687,
+                 -14px -14px 8px #a9d4f7;
+}
+
+#jt{
+    display: none;
+}
+
+a{
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #ce4cb2;
+}
+
+a:active{
+    color: #fbbdee;
+}
+main{
+background: rgb(156, 223, 225);
+background: radial-gradient(circle, rgb(65, 230, 216) 20%, rgb(204, 115, 231) 69%);
+}
+
+#home{
+    background-image: url(../images/dusk.png);
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+
+#fidget{
+
+color: #ead379;
+font-size: xx-large;
+font-family: monospace;
+text-align: center;
+padding-left: 5%;
+padding-top: 5%;
+padding-bottom: 8%;
+
+}
+
+h1{
+padding-top: 6%;
+margin: top 0%;
+font-size: xx-large;
+text-align: center;
+}
+
+#apretame{
+width: 20%;
+margin-left: -2%;
+margin-top: 10%;
+padding-bottom: 7%;
+cursor: pointer;
+
+}
+
+#contadorclicks{
+margin-top: 5%;
+margin-left: -4%;
+}
+
+#audiofondo {
+margin-left: -90%;
+
+}
+
+#juegos{
+    display: none;
+}
+
+
+#contenedorjuegos{
+    display: flex;
+    width:100%;
+    height: 100%;
+    padding-left: 9%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+#portada1{
+ border-radius: 15px;
+ width: 20%;
+ cursor: pointer;
+}
+
+#portada2{
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -23.5%;
+    width: 20%;
+    cursor: pointer;
+   }
+
+#portada3{
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -23.5%;;
+    width: 20%;
+    cursor: pointer;
+   }   
+
+#juego11{
+  display: none;  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#juego22{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+#juego33{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  } 
+
+#pantalla-wal{
+    display: none;
+}
+
+#contenedor{
+    margin-left: 14%;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+#foto{
+    margin-top: 6%;
+    margin-left: 15%;
+    padding-bottom: 10%;
+    cursor: pointer;
+}
+
+#foto2{
+    padding-bottom: 20%;
+    cursor: pointer;
+}
+
+.oculto{
+    display: none;
+}
+
+.modal-conteiner1{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal1{
+    border-radius: 25px;
+    width: 55%;
+    height: 70%;
+    margin-top: 5%;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    text-align: center;
+    position: relative;
+}
+
+h2{
+    color: #915b86;
+}
+
+h3{
+    color: #915b86;
+}
+
+#atencion{
+    width: 70%;
+    margin-left:2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#atencion1{
+    width: 70%;
+    margin-left:2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#botoncerrar{
+    margin-top: 20%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ca8be8, #aa75c3);
+    box-shadow:  34px 34px 68px #9b6bb2,
+                 -34px -34px 68px #df99ff;
+    border: none;
+    cursor: pointer;
+}
+
+#botoncerrar1{
+    margin-top: 10%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ca8be8, #aa75c3);
+    box-shadow:  34px 34px 68px #9b6bb2,
+                 -34px -34px 68px #df99ff;
+    border: none;
+    cursor: pointer;
+}
+
+#chatbot{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    padding-bottom: 20%;
+    
+}
+
+#titulo-chatbot{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 8%;
+    color: #440937;
+}
+
+#txtpregunta{
+    background: linear-gradient(145deg, #ca8be8, #aa75c3);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 21%;
+    margin-right: 4%;
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+   
+}
+
+#txtrespuesta{
+    background: linear-gradient(145deg, #ca8be8, #aa75c3);
+    margin-bottom: 5%;
+    margin-left: 21%;
+    width: 60%;
+    height: 4%;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+
+  
+}
+
+#resultado{
+    background: linear-gradient(145deg, #ca8be8, #aa75c3);
+    border-radius: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border:none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 46.5%;
+    margin-bottom: 5%;
+    color: #440937;
+}
+
+@media (max-width: 600px) {
+   .modal{
+    padding: 5%;
+    width: 70%;
+    height: 60%;
+   }
+   #atencion{
+    margin-top: 18%;
+    margin-bottom: 25%;
+   }
+   #aceptar{
+    margin-top: 35%;
+   }
+   a{
+    font-size: small;
+    margin-left: 8%;
+   }
+   #reloj{
+    margin-left: 77%;
+    font-size: small;
+   }
+   #audiofondo{
+    width: 30%;
+    margin-left: -6%;
+    margin-top: 40%;
+   }
+   #fidget h1{
+    font-size: large;
+    margin-top: 10%;
+   }
+   #contadorclicks{
+     margin-top: 30%;
+   }
+   #apretame{
+    margin-top: 20%;
+    width: 40%;
+   }
+   #contenedorjuegos{
+    padding-bottom: 170%;
+   }
+   #portada1{
+    width: 50%;
+    margin-left: 17%;
+    margin-top: 5%;
+   }
+   #portada2{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 17%;
+   }
+   #portada3{
+    width: 50%;
+    margin-top: 90%;
+    margin-left: 17%;
+   }
+   .modal1{
+    margin-left: -68%;
+    padding: 3%;
+    width: 15%;
+   }
+   #atencion1{
+    width: 80%;
+    margin-bottom: 5%;
+   }
+   .modal-textos1{
+    margin-top: 10%;
+    margin-bottom: 10%;
+   }
+   #chatbot{
+    padding-bottom: 150%;
+   }
+   #pantalla-wall{
+    padding-top: 20%;
+    padding-bottom: 100%;
+   }
+   #foto{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  #foto2{
+    width: 90%;
+    margin-left: -60%;
+  }
+  }
